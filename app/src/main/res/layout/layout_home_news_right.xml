@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_slidingmenu_left">
+    <ImageView
+        android:id="@+id/iv_home_right_login"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/biz_pc_main_info_profile_avatar_bg_dark"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+    <TextView
+        android:id="@+id/tv_home_right_name"
+        android:layout_gravity="center_horizontal"
+        android:text="立刻登录"
+        android:textSize="25dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp" />
+    <LinearLayout
+        
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/tv_home_right_update_version"
+            android:layout_gravity="center"
+            android:text="更新版本"
+            android:textSize="15dp"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:id="@+id/ll_home_right_share"
+            android:layout_gravity="center"
+            android:background="@mipmap/share_little_bg"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/fun_share_weixin"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/addimport_qq"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/fun_share_friends"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:src="@mipmap/fun_share_weibo"
+                android:layout_width="45dp"
+                android:layout_height="45dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

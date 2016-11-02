@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--ViewPager  左右滑动的四张图-->
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_guide"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--页面底部点击以及滑动变色的四个点-->
+    <RadioGroup
+        android:id="@+id/rg_guide"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/rb_guide_one"
+            android:layout_margin="5dp"
+            android:button="@null"
+            android:drawableTop="@drawable/select_guide_radio_button"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rb_guide_two"
+            android:layout_margin="5dp"
+            android:button="@null"
+            android:drawableTop="@drawable/select_guide_radio_button"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rb_guide_three"
+            android:layout_margin="5dp"
+            android:button="@null"
+            android:drawableTop="@drawable/select_guide_radio_button"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/rb_guide_four"
+            android:layout_margin="5dp"
+            android:button="@null"
+            android:drawableTop="@drawable/select_guide_radio_button"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+
+</RelativeLayout>

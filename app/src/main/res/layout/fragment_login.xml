@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:padding="5dp"
+        android:id="@+id/et_login_name"
+        android:layout_margin="15dp"
+        android:hint="请输入用户昵称"
+        android:textSize="20sp"
+        android:background="@drawable/select_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:padding="5dp"
+        android:id="@+id/et_login_password"
+        android:layout_margin="15dp"
+        android:hint="请输入密码"
+        android:textSize="20sp"
+        android:background="@drawable/select_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:background="@color/colorRedBackground"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/bnt_login_register"
+            android:background="@null"
+            android:text="注册"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <View
+            android:background="@color/white"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/bnt_login_forget_password"
+            android:background="@null"
+            android:text="忘记密码"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+        <View
+            android:background="@color/white"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"/>
+        <Button
+            android:id="@+id/bnt_login_enter"
+            android:background="@null"
+            android:text="登录"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

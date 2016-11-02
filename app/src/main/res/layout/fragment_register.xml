@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:padding="5dp"
+        android:id="@+id/et_register_email_address"
+        android:layout_margin="15dp"
+        android:hint="请输入邮箱地址"
+        android:textSize="20sp"
+        android:background="@drawable/select_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:padding="5dp"
+        android:id="@+id/et_register_name"
+        android:layout_margin="15dp"
+        android:hint="请输入昵称"
+        android:textSize="20sp"
+        android:background="@drawable/select_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <EditText
+        android:padding="5dp"
+        android:id="@+id/et_register_password"
+        android:layout_margin="15dp"
+        android:hint="密码：6到24位字符"
+        android:textSize="20sp"
+        android:background="@drawable/select_edit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <Button
+        android:id="@+id/bnt_register"
+        android:text="立即注册"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:background="@color/colorRedBackground"
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/checkbox_register"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="我同意"
+                    android:textSize="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="“服务条款”"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:text="和"
+                    android:textSize="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+                <TextView
+                    android:text="“网络用户隐私保护和个人信息利用政策”"
+                    android:textSize="10sp"
+                    android:textColor="@color/colorAccent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

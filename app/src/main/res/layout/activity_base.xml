@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/ll_base_layout_top"
+        android:background="@color/colorRedBackground"
+        android:paddingRight="3dp"
+        android:paddingLeft="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:background="@drawable/select_tittle_click"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/iv_layout_base_top_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_title_home_default" />
+        <TextView
+            android:text="title"
+            android:textSize="25sp"
+            android:textColor="@color/white"
+            android:id="@+id/tv_layout_base_top_title"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+        <Button
+            android:background="@drawable/select_tittle_butten"
+            android:id="@+id/bnt_layout_base_top_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:background="@drawable/select_tittle_click"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="3dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/iv_layout_base_top_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ic_title_share_default" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_layout_base_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+</LinearLayout>

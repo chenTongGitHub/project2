@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg_slidingmenu_left">
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp">-->
+    <!--<ImageView-->
+        <!--android:src="@mipmap/biz_navigation_tab_news"-->
+        <!--android:id="@+id/iv_home_news_left_image_news"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp" />-->
+    <!--<LinearLayout-->
+        <!--android:layout_weight="1"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:orientation="vertical">-->
+        <!--<TextView-->
+            <!--android:text="新闻"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:id="@+id/tv_home_news_left_news"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp" />-->
+        <!--<TextView-->
+            <!--android:text="NEWS"-->
+            <!--android:textSize="15sp"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:id="@+id/tv_home_news_left_news_english"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="20dp" />-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp">-->
+        <!--<ImageView-->
+            <!--android:src="@mipmap/biz_navigation_tab_read"-->
+            <!--android:id="@+id/iv_home_news_image_read"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp" />-->
+        <!--<LinearLayout-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:text="收藏"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:id="@+id/tv_home_news_left_favorite"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="30dp" />-->
+            <!--<TextView-->
+                <!--android:text="FAVORITE"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:id="@+id/tv_home_news_left_favorite_english"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="20dp" />-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp">-->
+        <!--<ImageView-->
+            <!--android:src="@mipmap/biz_navigation_tab_local_news"-->
+            <!--android:id="@+id/iv_home_news_image_local"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp" />-->
+        <!--<LinearLayout-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:text="本地"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:id="@+id/tv_home_news_left_local"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="30dp" />-->
+            <!--<TextView-->
+                <!--android:text="LOCAL"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:id="@+id/tv_home_news__left_local_english"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="20dp" />-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp">-->
+        <!--<ImageView-->
+            <!--android:src="@mipmap/biz_navigation_tab_ties"-->
+            <!--android:id="@+id/iv_home_news_image_ties"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp" />-->
+        <!--<LinearLayout-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:text="跟帖"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:id="@+id/tv_home_news_left_comment"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="30dp" />-->
+            <!--<TextView-->
+                <!--android:text="COMMENT"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:id="@+id/tv_home_news_left_comment_english"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="20dp" />-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="70dp">-->
+        <!--<ImageView-->
+            <!--android:src="@mipmap/biz_navigation_tab_pics"-->
+            <!--android:id="@+id/iv_home_news_image_pics"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp" />-->
+        <!--<LinearLayout-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:orientation="vertical">-->
+            <!--<TextView-->
+                <!--android:text="图片"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:id="@+id/tv_home_news_left_photo"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="30dp" />-->
+            <!--<TextView-->
+                <!--android:text="PHOTO"-->
+                <!--android:textSize="15sp"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:id="@+id/tv_home_news_left_photo_english"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="20dp" />-->
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_home_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
